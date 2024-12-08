@@ -1,0 +1,92 @@
+
+
+
+/**/
+
+.flex{
+  display: flex;
+
+}
+.main-list{
+  padding:20px ;
+  font-size: 19px;
+  position: relative;
+}
+.main-link{
+  padding:8px 15px ;
+}
+.main-link:hover, .main-link.active{
+  color: cyan;
+  box-shadow: 0 0 7px cyan;
+  border-radius: 1px;
+}
+/**/
+
+/**/
+.sub-ul{
+  display: none;
+  background-color:#1b1b1b;
+  position: absolute;
+  top:70px;
+  left:-15px;
+  border-top:2px solid cyan ;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+}
+.sub-ul li{
+  padding: 8px 0 ;
+  font-size: 18px;
+  border-bottom: 2px solid black;
+}
+.sub-ul li a:hover{
+  color: cyan;
+  font-weight: bold;
+
+}
+.sub-of-java{
+  left: 10px;
+}
+.sub-of-c{
+  left: 15px;
+
+}
+/**dropdown**/
+.main-list:hover .sub-ul{
+  display: block;
+}
+
+/**/
+.sub-sub-ul{
+  display: none;
+  background-color:#1b1b1b;
+  position: absolute;
+  top:100px;
+  left:160px;
+  border-top:2px solid cyan ;
+  padding: 5px;
+  border-radius: 5px;
+  width: 150px;
+}
+.projectList:hover .sub-sub-ul{
+  display: block;
+
+} 
+
+
+
+
+/*header#######################*/
+main p{
+  color: #1b1b1b;
+  height: calc(100vh - 140px);
+  font-size: 30px;
+  line-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+

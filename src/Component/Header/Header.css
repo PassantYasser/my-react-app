@@ -1,0 +1,21 @@
+/*mobile#######################*/
+.show-in-mobile{
+  display: none;
+}
+
+.show-in-desktop{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (Max-width:768px) {
+  .show-in-mobile{
+    display: block;
+    background-color:#1b1b1b;
+  }
+  
+.show-in-desktop{
+  display: none;
+
+}
+}

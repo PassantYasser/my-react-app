@@ -1,0 +1,118 @@
+/*mobile & tab*/
+
+
+#burger{
+  display: none;
+}
+
+.burgerLabel{
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.fa-bars{
+  font-size: 30px;
+  transform: scale(1.4);
+}
+.fa-bars:hover{
+  color: cyan;
+  cursor: pointer;
+}
+
+.show-on-click{
+    display: none;
+  border-top: 2px solid black;
+}
+/*************************######onclick*/
+#burger:checked + .show-on-click{
+  display: block;
+}
+/*************************######*******/
+.main-div{
+  border-bottom: 2px solid black;
+}
+.sub-div{
+  display: none;
+  border-bottom: 2px solid black;
+}
+#html,#css,#java,#c{
+  display: none;
+}
+/*************************######onclick*/
+#html:checked + .sub-div{
+  display: block;
+}
+#css:checked + .sub-div{
+  display: block;
+}
+#java:checked + .sub-div{
+  display: block;
+}
+#c:checked + .sub-div{
+  display: block;
+}
+/*************************######*******/
+
+
+.labelDiv{
+  /*inline--> label*/
+  display: block;
+  font-size: 22px;
+  padding:20px;
+  font-weight: bold;
+}
+.labelDiv:hover{
+  color: cyan;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.fa-plus{
+  position: absolute;
+  right:35px;
+  color: white;
+}
+.labelDiv:hover .fa-plus {
+  color: cyan;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+.sub-div li{
+  font-size: 19px;
+  padding:10px 30px;
+  
+}
+.sub-div li a{
+  /*inline -->a*/
+  display: block;
+}
+.sub-div li a:hover{
+  color: cyan;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+}
+
+.sub-sub-div{
+  display: none;
+  margin-top: 17px;
+}
+#Projects{
+  display: none;
+}
+#Projects:checked + .sub-sub-div{
+  display: block;
+}
+.project{
+  padding: 0;
+  font-size: 19px;
+
+}
+.project:hover{
+  font-size: 22px;
+
+}
+
+
+
+
+
